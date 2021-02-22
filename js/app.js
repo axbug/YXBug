@@ -532,7 +532,7 @@ const YXBug = {
                 position: 'down',
                 width: '100%',
                 maxHeight: '250px',
-                api: '/content/plugins/OwO/OwO.min.json'
+                api: 'https://cdn.jsdelivr.net/gh/axbug/OwO-Emlog/OwO.min.json'
             });
         }
     },

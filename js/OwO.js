@@ -109,7 +109,7 @@ function insertAtCursor(e, t) {
                               `;
                             } else if (owoType == "image") {
                                 html += `
-                                <li class="OwO-item" title="${opackage[_i].text}" data-id="@(${opackage[_i].text})"><img class="emoji" src="/content/plugins${opackage[_i].icon}"/></li>
+                                <li class="OwO-item" title="${opackage[_i].text}" data-id="@(${opackage[_i].text})"><img class="emoji" src="https://cdn.jsdelivr.net/gh/axbug/OwO-Emlog${opackage[_i].icon}"/></li>
                               `;
                             }
                         }
